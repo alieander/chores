@@ -1,0 +1,14 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  DisplayCopNames: true
+  Include:
+    - '**/*.gemspec'
+    - '**/*.rake'
+    - '**/Gemfile'
+    - '**/Rakefile'
+    - '**/*.rb'
+  Exclude:
+    - db/schema.rb
+
+Style/Documentation:
+  Enabled: false
